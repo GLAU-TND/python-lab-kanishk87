@@ -6,12 +6,12 @@ class Myexception(Exception):
 
 def xyz(a,b):
     c=a+b
-    if c< 150:
+    if c < 150:
         raise Myexception('custom exception occured')
     else:
         return c
-a=int(input())
+a = int(input())
 b=int(input())
-print(xyz(a,b))
+print(xyz(a, b))
 
 
